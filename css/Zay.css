@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 1rem;
+  font-family: "Roboto" , sans-serif;
+}
+
+.shop_info_dad {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.shop_icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.shop_link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem;
+}
+
+.shop_programms {
+  width: 100%;
+  background-color: #212934;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.6rem 5rem;
+  font-weight: 300;
+}
+
+.info h1{
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.zay_menu{
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem ;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+}
+
+.zay_title h1 {
+    color: #59ab6e;
+    font-size: 2.6rem;
+}
+
+
+.zay_search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+
+.zay_menus{
+    width: 30%  ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.zay_menus a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+
+.zay_menus a:hover{
+    color: #59ab6e;
+    transition: 0.3s;
+}
