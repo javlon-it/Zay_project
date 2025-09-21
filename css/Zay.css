@@ -3,7 +3,7 @@
   margin: 0;
   box-sizing: border-box;
   font-size: 1rem;
-  font-family: "Roboto" , sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .shop_info_dad {
@@ -37,50 +37,294 @@
   font-weight: 300;
 }
 
-.info h1{
-    font-weight: 300;
-    font-size: 0.8rem;
+.info h1 {
+  font-weight: 300;
+  font-size: 0.8rem;
 }
 
-.zay_menu{
-    text-transform: capitalize;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding: 1rem ;
-    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+.zay_menu {
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 1rem;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
 
 .zay_title h1 {
-    color: #59ab6e;
-    font-size: 2.6rem;
+  color: #59ab6e;
+  font-size: 2.6rem;
 }
 
-
-.zay_search{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+.zay_search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
-
-.zay_menus{
-    width: 30%  ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
+.zay_menus {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
 }
 
-.zay_menus a{
-    text-decoration: none;
-    color: black;
-    font-weight: 300;
-    font-size: 1.1rem;
+.zay_menus a {
+  text-decoration: none;
+  color: black;
+  font-weight: 300;
+  font-size: 1.1rem;
 }
 
-.zay_menus a:hover{
-    color: #59ab6e;
-    transition: 0.3s;
+.zay_menus a:hover {
+  color: #59ab6e;
+  transition: 0.3s;
+}
+
+.zay_child h1 {
+  font-size: 1.7rem;
+  font-weight: 300;
+  text-transform: capitalize;
+  padding: 0.5rem 0rem;
+}
+
+.zay_location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.2rem 0rem;
+}
+
+.zay_location :first-child {
+  font-size: 1.4rem;
+}
+
+.zay_child .zay_a {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.zay_child .zay_a a {
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+
+.zay_child .zay_a a:hover {
+  color: #59ab6e;
+  transition: 0.1s;
+}
+
+.zay_footer {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 5rem;
+  color: white;
+  margin: 1rem 0rem;
+}
+
+.zay_footer_about {
+  width: 100%;
+  background-color: #212934;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 5rem;
+}
+
+.zay_child {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+}
+
+.green {
+  color: #59ab6e;
+}
+
+hr {
+  border: 0.1px solid white;
+  width: 100%;
+  margin: 0.5rem 0rem;
+}
+
+.zay_footer_links {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  padding: 0.5rem 0rem;
+}
+
+.zay_footer_links box-icon {
+  padding: 0.5rem;
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  border-radius: 50%;
+  border: 0.01rem solid white;
+}
+
+.zay_footer_inp {
+  display: flex;
+}
+
+.zay_footer_inp input {
+  padding: 0.5rem;
+  border: none;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+  background-color: #212934;
+  outline: none;
+  color: white;
+}
+
+.zay_footer_inp input:focus {
+  box-shadow: 0 0 6px #59ab6e;
+  transition: 0.3s;
+}
+
+.zay_footer_inp input::placeholder {
+  color: rgba(255, 255, 255, 0.633);
+}
+
+.zay_footer_inp button {
+  padding: 0.5rem 1rem;
+  border: none;
+  margin: 0;
+  background-color: #59ab6e;
+  text-transform: capitalize;
+  color: white;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
+.zay_footer_link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0rem 5.5rem;
+}
+
+.zay_title_footer p {
+  font-weight: 100;
+  margin: 1rem 6rem;
+}
+
+.zay_title_footer p span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.zay_title_footer p span:hover {
+  color: #59ab6e;
+  transition: 0.3s;
+}
+
+.zay_prducts_info {
+  width: 40%;
+  font-weight: 300;
+}
+
+.zay_prducts_info h1 {
+  font-weight: 200;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.1rem;
+}
+
+.zay_prducts_info p span {
+  font-weight: 500;
+}
+
+.zay_prducts_info h2 {
+  font-weight: 200;
+  font-size: 1.6rem;
+  margin-bottom: 0.6rem;
+}
+
+.zay_prducts_info p {
+  width: 90%;
+  line-height: 1.5rem;
+}
+
+.zay_products_img {
+  width: 40%;
+}
+
+.zay_products_img img {
+  width: 75%;
+}
+
+.zay_products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 0rem;
+  width: 100%;
+}
+
+.Categories_info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1rem 0rem;
+}
+
+.Categories_info h1 {
+  font-size: 2rem;
+  font-weight: 100;
+  margin: 0.5rem 0rem;
+}
+
+.Categories_info p {
+  font-weight: 100;
+  width: 35%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.Categories_zay_controll {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.Categories_zay_child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.6rem;
+  width: 30%;
+}
+
+.Categories_zay_child img {
+  width: 65%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px 0px #212934;
+}
+
+.Categories_zay_child h1 {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.Categories_zay_child button {
+  padding: 0.7rem 1rem;
+  text-transform: capitalize;
+  border: none;
+  background-color: #59ab6e;
+  color: white;
+  border-radius: 0.2rem;
 }
