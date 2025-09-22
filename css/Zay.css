@@ -188,7 +188,7 @@ hr {
 
 .zay_footer_inp input:focus {
   box-shadow: 0 0 6px #59ab6e;
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
 .zay_footer_inp input::placeholder {
@@ -236,7 +236,7 @@ hr {
 
 .zay_prducts_info h1 {
   font-weight: 200;
-  font-size: 2rem;
+  font-size: 3rem;
   margin-bottom: 1rem;
   letter-spacing: 0.1rem;
 }
@@ -247,7 +247,7 @@ hr {
 
 .zay_prducts_info h2 {
   font-weight: 200;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   margin-bottom: 0.6rem;
 }
 
@@ -261,7 +261,7 @@ hr {
 }
 
 .zay_products_img img {
-  width: 75%;
+  width: 100%;
 }
 
 .zay_products {
@@ -293,6 +293,10 @@ hr {
   line-height: 1.5rem;
 }
 
+.Categories_zay {
+  padding: 2rem 0rem;
+}
+
 .Categories_zay_controll {
   display: flex;
   align-items: center;
@@ -311,7 +315,7 @@ hr {
 }
 
 .Categories_zay_child img {
-  width: 65%;
+  width: 75%;
   border-radius: 50%;
   box-shadow: 0px 0px 2px 0px #212934;
 }
@@ -329,3 +333,24 @@ hr {
   color: white;
   border-radius: 0.2rem;
 }
+
+.Featured_Product_title h1 {
+  font-size: 2.3rem;
+  font-weight: 300;
+}
+
+.Featured_Product_title p {
+  font-weight: 200;
+  width: 40%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.Featured_Product_title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
